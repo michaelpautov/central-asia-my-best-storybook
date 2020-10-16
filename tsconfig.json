@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@asia/*": ["src/*"]
+      "@devfest/*": ["src/*"]
     },
     "target": "es5",
     "lib": [

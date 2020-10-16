@@ -1,16 +1,17 @@
-import React from 'react';
-import './app.css';
+import React, { Fragment } from 'react'
+import { GlobalStyle } from '@devfest/components'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Asia Dev Fest 2020
-        </p>
-      </header>
-    </div>
-  );
+    <Fragment>
+      <GlobalStyle />
+      <div className="App">
+        <header className="App-header">
+          <p>Asia Dev Fest 2020</p>
+        </header>
+      </div>
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
