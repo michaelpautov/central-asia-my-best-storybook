@@ -1,9 +1,7 @@
 import { User } from './types'
 import { ActionTypes, Action } from '@devfest/store'
 
-const initialState: User = {
-  userName: 'John',
-}
+const initialState: User = {}
 
 export function userReducer(state = initialState, action: Action): User {
   switch (action.type) {
